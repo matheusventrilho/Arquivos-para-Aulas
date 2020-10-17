@@ -1,0 +1,85 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Foreign exchange rates in Canadian dollars, Bank of Canada, daily",10100008,176-0067,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010000801",1;2;3,"ARCHIVED -  a cube publicly available but no longer being updated",Daily,1950-10-02,2017-04-28,2,,
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,"Type of currency",,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,,1,,,,,,
+2,"United States dollar, noon spot rate",,1,,,,,,
+2,"United States dollar, 90-day forward noon rate",,2,,,,,,
+2,"Belgian franc, noon spot rate",,3,,t,,,,
+2,"Danish krone, noon spot rate",,4,,,,,,
+2,"French franc, noon spot rate",,5,,t,,,,
+2,"German mark, noon spot rate",,6,,t,,,,
+2,"Italian lira, noon spot rate",,7,,t,,,,
+2,"Japanese yen, noon spot rate",,8,,,,,,
+2,"Dutch guilder, noon spot rate",,9,,t,,,,
+2,"Norwegian krone, noon spot rate",,10,,,,,,
+2,"Swedish krona, noon spot rate",,11,,,,,,
+2,"Swiss franc, noon spot rate",,12,,,,,,
+2,"United Kingdom pound sterling, noon spot rate",,13,,,,,,
+2,"United Kingdom pound sterling, 90-day forward noon rate",,14,,,,,,
+2,"United States dollar, closing spot rate",,15,,,,,,
+2,"United States dollar, highest spot rate",,16,,,,,,
+2,"United States dollar, lowest spot rate",,17,,,,,,
+2,"United States dollar, 90-day forward closing rate",,18,,,,,,
+2,"Irish pound, noon spot rate",,19,,t,,,,
+2,"Austrian schilling, noon spot rate",,20,,t,,,,
+2,"Australian dollar, noon spot rate",,21,,,,,,
+2,"Finnish markka, noon spot rate",,22,,t,,,,
+2,"Spanish peseta, noon spot rate",,23,,t,,,,
+2,"Hong Kong dollar, noon spot rate",,24,,,,,,
+2,"New Zealand dollar, noon spot rate",,25,,,,,,
+2,"United States dollar, 30-day forward closing rate",,26,,,,,,
+2,"United States dollar, 60-day forward closing rate",,27,,,,,,
+2,"United States dollar, 180-day forward closing rate",,28,,,,,,
+2,"United States dollar, 1-year forward closing rate",,29,,,,,,
+2,"Mexican pesos, noon spot rate",,30,,,,,,
+2,"United States/Canada, closing 3-month forward points spread",,31,,,,,,
+2,"United States/Canada, closing 6-month forward points spread",,32,,,,,,
+2,"European euro, noon spot rate",,33,,,,,,
+2,"Australian dollar, closing spot rate",,34,,,,,,
+2,"Danish krone, closing spot rate",,35,,,,,,
+2,"European euro, closing spot rate",,36,,,,,,
+2,"Hong Kong dollar, closing spot rate",,37,,,,,,
+2,"Japanese yen, closing spot rate",,38,,,,,,
+2,"Mexican peso, closing spot rate",,39,,,,,,
+2,"New Zealand dollar, closing spot rate",,40,,,,,,
+2,"Norwegian krone, closing spot rate",,41,,,,,,
+2,"Swedish krona, closing spot rate",,42,,,,,,
+2,"Swiss franc, closing spot rate",,43,,,,,,
+2,"United Kingdom pound sterling, closing spot rate",,44,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+7502,"Bank of Canada"
+
+"Subject Code","Subject Name"
+10,Government
+
+"Note ID",Note
+1,"A numeric value ""0"" indicates a weekend."
+2,"Effective March 2, 2017, the Bank of Canada has changed the number, frequency and calculation methodology of its published foreign exchange (FX) rates. As a result, CANSIM table 176-0067 has been archived. A new CANSIM table (176-0080), ""Daily average foreign exchange rates in Canadian dollars, Bank of Canada,"" will display the daily averages of foreign currency exchange rates and Canadian-Dollar Effective Exchange Rate Index (CERI). ( http://www.bankofcanada.ca/2016/12/bank-canada-announces-details-forthcoming-changes/ )"
+3,"Effective March 2, 2017, the Canadian-Dollar Effective Exchange Rate Index (CERI) (V41589522) will be moved to CANSIM table 176-0080 as V111666250, as a result of the changes to the exchange rates. The pre-March 2017 CERI data will not be revised to reflect the new methodology."
+
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+
+
